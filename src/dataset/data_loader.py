@@ -147,6 +147,7 @@ if __name__ == '__main__':
         dataset_path = root + ''
         hr_filename = 'hr_st_maps.csv'
         n_gru_inputs = 6
+        batch_size = 8
 
         # Build experiment using cross validation
         df_experiment = build_df_experiment_leave_out(
@@ -180,7 +181,7 @@ if __name__ == '__main__':
         # Dataset
         train_dataloader = DataLoader(
             train_set,
-            batch_size=8,
+            batch_size=batch_size,
             shuffle=True
         )
 

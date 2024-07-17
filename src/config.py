@@ -12,9 +12,9 @@ params = {
     'BATCH_SIZE': 8,
     'PATIENCE': 5,
     'EPOCHS': 15,
-    'N_TRAIN_EXAMPLES': 1000,  # 2346
-    'N_VAL_EXAMPLES': 400,     # 1007
-    'N_TEST_EXAMPLES': 400,    # 895
+    'N_TRAIN_EXAMPLES': 1000,
+    'N_VAL_EXAMPLES': 500,
+    'N_TEST_EXAMPLES': 500,
     'GRU_OUTPUT': True,
     'DEVICE': 'cuda',  # 'cuda'  or 'cpu
     'PROJECT_NAME_WANDB': '1_stmaps',

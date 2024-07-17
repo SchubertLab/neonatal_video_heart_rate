@@ -23,7 +23,7 @@ Deep learning pipeline for video-based heart rate prediction in neonates, levera
 ## Usage
 > - Install dependencies
 > ```bash
-> conda env create -f neolunet_env.yml
+> conda env create -f environment.yml
 > ```
 
 ## References
